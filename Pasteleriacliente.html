@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería "Amigo Fiel"</title>
+</head>
+<Body>
+    <h1>Pastelería "Amigo Fiel"</h1>
+    <h2>Pasteles para nuestros mejores amigos</h2> 
+    <h3>Dirección: Ciudad de México Teléfono: 5501234567     Horario de atención: 01:00 pm - 11:00 pm</h3>
+    <img src="pastelerialogo.png" width="500px" height="350px">
+    <hr>    
+    <h2>Menú Canino</h2>
+    <h3>Los sabores que tenemos son:</h3>
+    <p>Pastel de Bisteck .........................$250 <br>
+        Pastel de Pollo ............................$240 <br>
+        Pastel de Pescado .......................$280 <br>
+        Pastel de Pastor...........................$230 <br>
+        Pastel de Suadero........................$220</p> <br>
+
+    <h3>Adornos que se le pueden poner:</h3>
+    <p>Velas .......................................$10 <br>
+    Chispas ...................................$20 <br>
+    Globos ....................................$15 <br>
+    Cartel con nombre ..................$10 <br>
+    Figuritas en cartón ..................$15 </p>
+    <br>
+    <hr>
+    <h2>Realizar pedido</h2>
+
+    <h3>Sabor del pastel:</h3>
+    <p>(Se pueden combinar)     </p>
+
+    <form action="">
+    <input type="checkbox" id="pastelbisteck" name="pastelbisteck" value="Pastel de Bisteck">
+    <label for="pastelbisteck">Pastel de Bisteck</label><br>
+    <input type="checkbox" id="pastelpollo" name="pastelpollo" value="Pastel de Pollo">
+    <label for="pastelpollo">Pastel de Pollo</label><br>
+    <input type="checkbox" id="pastelpescado" name="pastelpescado" value="Pastel de Pescado">
+    <label for="pastelpescado">Pastel de Pescado</label><br>
+    <input type="checkbox" id="pastelpastor" name="pastelpastor" value="Pastel de Pastor">
+    <label for="pastelpastor">Pastel de Pastor</label><br>
+    <input type="checkbox" id="pastelsuadero" name="pastelsuadero" value="Pastel de Suadero">
+    <label for="pastelsuadero">Pastel de Suadero</label><br><br>
+    
+    <h3>Adornos para el pastel:</h3>
+    <p>(Se pueden combinar) </p>
+    <input type="checkbox" id="velas" name="velas" value="velas">
+    <label for="velas">Velas</label><br>
+    <input type="checkbox" id="Chispas" name="Chispas" value="Chispas">
+    <label for="Chispas">Chispas</label><br>
+    <input type="checkbox" id="Globos " name="Globos " value="Globos ">
+    <label for="Globos ">Globos</label><br>
+    <input type="checkbox" id="Cartel con nombre" name="Cartel con nombre" value="Cartel con nombre">
+    <label for="Cartel con nombre">Cartel con nombre</label><br>
+    <input type="checkbox" id="Figuritas en cartón" name="Figuritas en cartón" value="Figuritas en cartón">
+    <label for="Figuritas en cartón">Figuritas en cartón</label><br><br>
+    
+
+    <h2>Datos para el Pedido</h2>
+            
+    <label for="nombrecliente">Pedido a nombre de:</label><br>
+    <input type="text" id="nombrecliente" name="nombrecliente"><br><br>
+        
+    <label for="numerocliente">Teléfono de contacto:</label><br>
+    <input type="tel" id="numerocliente" name="numerocliente" maxlength="10"> <br><br>
+        
+    <label for="correo1">Correo electrónico:</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+       
+    <label for="datosadicionales">Información adicional para el Pedido:</label> <br>
+    <input type="text" name="datosadicionales" id="datosadicionales"> <br><br><br>
+    
+    <input type="button" id="boton1" name="boton1" value="Realizar Pedido" onclick="alert('Su pedido esta en proceso');">
+    <input type="reset"><br><br>
+
+    </form>
+
+
+
+</Body>
+</html>
